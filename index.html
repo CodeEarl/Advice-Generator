@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Advice Generator App">
+    <meta name="author" content="CodeEarl">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Advice Generator App</title>
+</head>
+<body>
+    <section id="main">
+        <h3 class="header">advice #<span id="num"></span></h3>
+
+        <p id="advice">
+            <q id="text">Welcome to the advice generator app. Click the cube to learn more.</q>
+        </p>
+
+        <picture>
+            <source media="(max-width: 600px)" srcset="./Assets/pattern-divider-mobile.svg">
+            <img src="/Assets/pattern-divider-desktop.svg" alt="">
+        </picture>
+
+        <button class="dice" type="button" title="Click Me!">
+            <img src="/CM/Assets/icon-dice.svg" alt=""> 
+        </button>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
